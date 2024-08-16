@@ -81,20 +81,22 @@ Usage:
 
 File Structure:
 
-recipe-search-app/
-├── public/                 # Static files
-├── src/
-│   ├── components/         # Reusable components
+📂 recipe-search-app/
+├── 📂 public/              # Static assets
+├── 📂 src/                 # Source files
+│   ├── 📂 components/      # React components
 │   │   ├── SearchForm.jsx  # Search bar and buttons
 │   │   ├── MealList.jsx    # Displays the list of recipes
+│   │   ├── MealItem.jsx    # Individual recipe card
 │   │   └── SingleMeal.jsx  # Detailed view of a single recipe
-│   ├── App.jsx             # Main app component
-│   ├── main.jsx            # Entry point for React
+│   ├── App.jsx             # Main application component
+│   ├── main.jsx            # React entry point
 │   └── index.css           # Global styles
-├── .gitignore              # Files and directories to be ignored by Git
-├── package.json            # Project metadata and dependencies
-├── README.md               # This file
-└── vite.config.js          # Vite configuration file
+├── 📄 .gitignore           # Git ignore file
+├── 📄 package.json         # Project metadata and dependencies
+├── 📄 README.md            # Project documentation (this file)
+└── 📄 vite.config.js       # Vite configuration
+
 
 Contact
 For any questions or feedback, please reach out:
